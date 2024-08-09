@@ -68,13 +68,13 @@ spec:
     }
     stage('Update K8s Manifests & Push') {
       environment {
-        githubUser = 'tnscks' //Ryan Jang
-        githubEmail = 'gkrbs0603@gmail.com' //c1t1d0s7@example.com
-        githubId = 'tnscks' //c1t1d0s7
-        githubRepo = 'cdargo' //jenkins-kube-deploy
+        githubUser = 'tnscks' 
+        githubEmail = 'gkrbs0603@gmail.com' 
+        githubId = 'tnscks' 
+        githubRepo = 'cdargo' 
         githubURL = "https://github.com/${githubId}/${githubRepo}.git"
-        dockerhubId = 'tnscks' //c1t1d0s7
-        dockerhubRepo = 'cicd' //hello-world
+        dockerhubId = 'tnscks' 
+        dockerhubRepo = 'cicd' 
       }
       steps {
         container('git') {
