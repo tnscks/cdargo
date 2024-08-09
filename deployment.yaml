@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image:tnscks/cdargo:21
+        image: tnscks/cdargo:22
         ports:
         - containerPort: 8080
